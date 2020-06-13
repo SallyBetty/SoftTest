@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0" sequence="0" timestamp="1587825135095" analysisTimestamp="1587825135099" release="unspecified">
+  <Project projectName="experiment6_gradle (spotbugsMain)">
+    <Jar>D:\Software Testing\Software-Testing\experiment6_gradle\build\classes\java\main\experiment6_gradle\App.class</Jar>
+    <Jar>D:\Software Testing\Software-Testing\experiment6_gradle\build\classes\java\main\experiment6_gradle\COVID_19.class</Jar>
+    <Jar>D:\Software Testing\Software-Testing\experiment6_gradle\build\classes\java\main\experiment6_gradle\Triangle.class</Jar>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\28.2-jre\8ec9ed76528425762174f0011ce8f74ad845b756\guava-28.2-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.10.0\5786699a0cb71f9dc32e6cca1d665eef07a0882f\checker-qual-2.10.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.4\dac170e4594de319655ffb62f41cbd6dbb5e601e\error_prone_annotations-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\-\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <SrcDir>D:\Software Testing\Software-Testing\experiment6_gradle\src\main\resources</SrcDir>
+    <SrcDir>D:\Software Testing\Software-Testing\experiment6_gradle\src\main\java</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" instanceHash="99a80fad626d2f8ab23876dfc8f3f188" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Reliance on default encoding</ShortMessage>
+    <LongMessage>Found reliance on default encoding in experiment6_gradle.COVID_19.main(String[]): new java.util.Scanner(InputStream)</LongMessage>
+    <Class classname="experiment6_gradle.COVID_19" primary="true">
+      <SourceLine classname="experiment6_gradle.COVID_19" start="13" end="150" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java">
+        <Message>At COVID_19.java:[lines 13-150]</Message>
+      </SourceLine>
+      <Message>In class experiment6_gradle.COVID_19</Message>
+    </Class>
+    <Method classname="experiment6_gradle.COVID_19" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="experiment6_gradle.COVID_19" start="16" end="150" startBytecode="0" endBytecode="1626" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java"/>
+      <Message>In method experiment6_gradle.COVID_19.main(String[])</Message>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="563" end="564" startBytecode="0" endBytecode="43" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+      <Message>Called method new java.util.Scanner(InputStream)</Message>
+    </Method>
+    <SourceLine classname="experiment6_gradle.COVID_19" primary="true" start="16" end="16" startBytecode="7" endBytecode="7" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java">
+      <Message>At COVID_19.java:[line 16]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" instanceHash="4998374079dba01ca3a5777d782fc555" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Useless object created</ShortMessage>
+    <LongMessage>Useless object stored in variable arr of method experiment6_gradle.COVID_19.main(String[])</LongMessage>
+    <Class classname="experiment6_gradle.COVID_19" primary="true">
+      <SourceLine classname="experiment6_gradle.COVID_19" start="13" end="150" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java">
+        <Message>At COVID_19.java:[lines 13-150]</Message>
+      </SourceLine>
+      <Message>In class experiment6_gradle.COVID_19</Message>
+    </Class>
+    <Method classname="experiment6_gradle.COVID_19" name="main" signature="([Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="experiment6_gradle.COVID_19" start="16" end="150" startBytecode="0" endBytecode="1626" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java"/>
+      <Message>In method experiment6_gradle.COVID_19.main(String[])</Message>
+    </Method>
+    <String value="arr">
+      <Message>Value arr</Message>
+    </String>
+    <Type descriptor="[[I">
+      <Message>Type int[][]</Message>
+    </Type>
+    <SourceLine classname="experiment6_gradle.COVID_19" primary="true" start="44" end="44" startBytecode="63" endBytecode="63" sourcefile="COVID_19.java" sourcepath="experiment6_gradle/COVID_19.java" relSourcepath="java\experiment6_gradle\COVID_19.java">
+      <Message>At COVID_19.java:[line 44]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="STYLE">
+    <Description>Dodgy code</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugPattern type="UC_USELESS_OBJECT" abbrev="UC" category="STYLE">
+    <ShortDescription>Useless object created</ShortDescription>
+    <Details><![CDATA[
+
+<p>Our analysis shows that this object is useless.
+It's created and modified, but its value never go outside of the method or produce any side-effect.
+Either there is a mistake and object was intended to be used or it can be removed.</p>
+<p>This analysis rarely produces false-positives. Common false-positive cases include:</p>
+<p>- This object used to implicitly throw some obscure exception.</p>
+<p>- This object used as a stub to generalize the code.</p>
+<p>- This object used to hold strong references to weak/soft-referenced objects.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_DEFAULT_ENCODING" abbrev="Dm" category="I18N">
+    <ShortDescription>Reliance on default encoding</ShortDescription>
+    <Details><![CDATA[
+
+<p> Found a call to a method which will perform a byte to String (or String to byte) conversion, and will assume that the default platform encoding is suitable. This will cause the application behaviour to vary between platforms. Use an alternative API and specify a charset name or Charset object explicitly.  </p>
+
+      ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <BugCode abbrev="UC">
+    <Description>Useless code</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 25 Apr 2020 22:32:15 +0800" total_classes="3" referenced_classes="18" total_bugs="2" total_size="92" num_packages="1" java_version="1.8.0_221" vm_version="25.221-b11" cpu_seconds="2.77" clock_seconds="1.33" peak_mbytes="213.84" alloc_mbytes="455.50" gc_seconds="0.01" priority_2="1" priority_1="1">
+    <FileStats path="experiment6_gradle/App.java" bugCount="0" size="8"/>
+    <FileStats path="experiment6_gradle/COVID_19.java" bugCount="2" size="71" bugHash="508c5432451d7dddb649ea28ef580135"/>
+    <FileStats path="experiment6_gradle/Triangle.java" bugCount="0" size="13"/>
+    <PackageStats package="experiment6_gradle" total_bugs="2" total_types="3" total_size="92" priority_2="1" priority_1="1">
+      <ClassStats class="experiment6_gradle.App" sourceFile="App.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="experiment6_gradle.COVID_19" sourceFile="COVID_19.java" interface="false" size="71" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="experiment6_gradle.Triangle" sourceFile="Triangle.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="155" invocations="18" avgMicrosecondsPerInvocation="8665" maxMicrosecondsPerInvocation="97903" standardDeviationMicrosecondsPerInvocation="23087"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="118" invocations="23" avgMicrosecondsPerInvocation="5146" maxMicrosecondsPerInvocation="12766" standardDeviationMicrosecondsPerInvocation="2391"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="91" invocations="18" avgMicrosecondsPerInvocation="5090" maxMicrosecondsPerInvocation="56346" standardDeviationMicrosecondsPerInvocation="12896"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="86" invocations="18" avgMicrosecondsPerInvocation="4786" maxMicrosecondsPerInvocation="64734" standardDeviationMicrosecondsPerInvocation="15080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="78" invocations="7" avgMicrosecondsPerInvocation="11182" maxMicrosecondsPerInvocation="77400" standardDeviationMicrosecondsPerInvocation="27033"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="66" invocations="377" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="3073" standardDeviationMicrosecondsPerInvocation="339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="66" invocations="89" avgMicrosecondsPerInvocation="743" maxMicrosecondsPerInvocation="18946" standardDeviationMicrosecondsPerInvocation="2899"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="58" invocations="7" avgMicrosecondsPerInvocation="8420" maxMicrosecondsPerInvocation="57559" standardDeviationMicrosecondsPerInvocation="20061"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="41" invocations="18" avgMicrosecondsPerInvocation="2305" maxMicrosecondsPerInvocation="40356" standardDeviationMicrosecondsPerInvocation="9232"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="35" invocations="378" avgMicrosecondsPerInvocation="95" maxMicrosecondsPerInvocation="18361" standardDeviationMicrosecondsPerInvocation="941"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="30" invocations="7" avgMicrosecondsPerInvocation="4328" maxMicrosecondsPerInvocation="29138" standardDeviationMicrosecondsPerInvocation="10129"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

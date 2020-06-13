@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.2" timestamp="2020-04-25T22:32:14.187">
+<file name="D:\Software Testing\Software-Testing\experiment6_gradle\src\main\java\experiment6_gradle\App.java">
+<violation beginline="4" endline="4" begincolumn="9" endcolumn="26" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6_gradle" class="App" priority="3">
+包名【experiment6_gradle】应全部小写
+</violation>
+</file>
+<file name="D:\Software Testing\Software-Testing\experiment6_gradle\src\main\java\experiment6_gradle\COVID_19.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="26" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6_gradle" class="COVID_19" priority="3">
+包名【experiment6_gradle】应全部小写
+</violation>
+<violation beginline="13" endline="151" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'COVID_19' has a Cyclomatic Complexity of 38 (Highest = 37).
+</violation>
+<violation beginline="13" endline="151" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'COVID_19' has a Modified Cyclomatic Complexity of 19 (Highest = 18).
+</violation>
+<violation beginline="13" endline="151" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'COVID_19' has a Standard Cyclomatic Complexity of 22 (Highest = 21).
+</violation>
+<violation beginline="15" endline="150" begincolumn="23" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="15" endline="150" begincolumn="23" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'main' has a Cyclomatic Complexity of 37.
+</violation>
+<violation beginline="15" endline="150" begincolumn="23" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'main' has a Modified Cyclomatic Complexity of 18.
+</violation>
+<violation beginline="15" endline="150" begincolumn="23" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'main' has a Standard Cyclomatic Complexity of 21.
+</violation>
+<violation beginline="15" endline="150" begincolumn="23" endcolumn="9" rule="NPathComplexity" ruleset="Code Size" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#NPathComplexity" priority="3">
+The method main() has an NPath complexity of 9766
+</violation>
+<violation beginline="59" endline="59" begincolumn="59" endcolumn="67" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;\t1.有\n&quot; appears 4 times in this file; the first occurrence is on line 59
+</violation>
+<violation beginline="60" endline="60" begincolumn="59" endcolumn="68" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="experiment6_gradle" class="COVID_19" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;\t2.没有\n&quot; appears 4 times in this file; the first occurrence is on line 60
+</violation>
+<violation beginline="115" endline="115" begincolumn="213" endcolumn="214" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【10】
+</violation>
+<violation beginline="115" endline="115" begincolumn="233" endcolumn="234" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【11】
+</violation>
+<violation beginline="115" endline="115" begincolumn="61" endcolumn="61" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【2】
+</violation>
+<violation beginline="115" endline="115" begincolumn="80" endcolumn="80" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【3】
+</violation>
+<violation beginline="115" endline="115" begincolumn="99" endcolumn="99" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【4】
+</violation>
+<violation beginline="115" endline="115" begincolumn="118" endcolumn="118" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【5】
+</violation>
+<violation beginline="115" endline="115" begincolumn="137" endcolumn="137" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【6】
+</violation>
+<violation beginline="115" endline="115" begincolumn="156" endcolumn="156" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【7】
+</violation>
+<violation beginline="115" endline="115" begincolumn="175" endcolumn="175" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【8】
+</violation>
+<violation beginline="115" endline="115" begincolumn="194" endcolumn="194" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【9】
+</violation>
+<violation beginline="116" endline="116" begincolumn="69" endcolumn="69" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【2】
+</violation>
+<violation beginline="116" endline="116" begincolumn="88" endcolumn="88" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【3】
+</violation>
+<violation beginline="116" endline="116" begincolumn="107" endcolumn="107" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【4】
+</violation>
+<violation beginline="119" endline="119" begincolumn="50" endcolumn="50" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【5】
+</violation>
+<violation beginline="122" endline="122" begincolumn="49" endcolumn="50" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【12】
+</violation>
+<violation beginline="123" endline="123" begincolumn="69" endcolumn="69" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【2】
+</violation>
+<violation beginline="123" endline="123" begincolumn="88" endcolumn="88" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【3】
+</violation>
+<violation beginline="123" endline="123" begincolumn="107" endcolumn="107" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【4】
+</violation>
+<violation beginline="126" endline="126" begincolumn="50" endcolumn="50" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="COVID_19" method="main" priority="3">
+魔法值【5】
+</violation>
+</file>
+<file name="D:\Software Testing\Software-Testing\experiment6_gradle\src\main\java\experiment6_gradle\Triangle.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="26" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6_gradle" class="Triangle" priority="3">
+包名【experiment6_gradle】应全部小写
+</violation>
+<violation beginline="9" endline="24" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="Triangle" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Triangle' has a Cyclomatic Complexity of 17 (Highest = 16).
+</violation>
+<violation beginline="10" endline="23" begincolumn="23" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6_gradle" class="Triangle" method="triangleCalculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'triangleCalculate' has a Cyclomatic Complexity of 16.
+</violation>
+<violation beginline="11" endline="11" begincolumn="34" endcolumn="36" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="Triangle" method="triangleCalculate" priority="3">
+魔法值【100】
+</violation>
+<violation beginline="11" endline="11" begincolumn="54" endcolumn="56" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="Triangle" method="triangleCalculate" priority="3">
+魔法值【100】
+</violation>
+<violation beginline="11" endline="11" begincolumn="74" endcolumn="76" rule="UndefineMagicConstantRule" ruleset="AlibabaJavaConstants" package="experiment6_gradle" class="Triangle" method="triangleCalculate" priority="3">
+魔法值【100】
+</violation>
+</file>
+</pmd>
